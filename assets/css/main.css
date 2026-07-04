@@ -18,7 +18,7 @@
   --text-title: rgb(6, 242, 171);
   --text-primary: #DAF1DE; 
   --text-secondary: #051F20; 
-  --text-muted: #BEB69B;
+  --text-muted: #9e9e9e;
   --color-span: rgb(6, 242, 171);
   --color-btn: rgb(6, 242, 171);
   /* ---------- font family --------- */
@@ -622,5 +622,18 @@ input[name="filter-project"] {
 /* Pequena animação da seta subindo no hover */
 .back-to-top:hover svg {
   transform: translateY(-2px);
+}
+/* ================================ SCROLL ANIMATION ===================================== */
+/* Estado inicial dos elementos antes de aparecerem na tela */
+.hidden-scroll {
+  opacity: 0;
+  transform: translateY(40px); /* Dá o efeito de que está subindo */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Classe que o JavaScript vai injetar quando o usuário chegar na seção */
+.show-scroll {
+  opacity: 1;
+  transform: translateY(0);
 }
 

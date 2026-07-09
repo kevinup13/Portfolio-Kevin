@@ -1,4 +1,3 @@
 # Personal Portifolio
 Created to presents my personal projects.
 [https://kevinup13.github.io/portifolio/](https://kevinup13.github.io/portfolio-2026/)
-# portfolio-2026
